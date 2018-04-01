@@ -3,7 +3,7 @@ body {
   font-family: 'Kaushan Script', cursive;
 }
 
-main {
+main, .d-flex {
   min-height: 100vh;
 }
 
