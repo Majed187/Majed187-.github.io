@@ -1,12 +1,51 @@
-@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Ranga');
+html {
+  font-size: 0, 625rem;
+  position: relative;
+  min-height: 100%;
+}
+
 body {
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Ranga', cursive;
+  font-size: 1.4rem;
+  margin-bottom: 60px;
+  background-image: url(../images/road.jpg);
+  background-size: cover;
+  font-weight: 700;
 }
 
-main {
-  min-height: 100vh;
+.d-flex {
+  min-height: 98vh;
 }
 
-p {
-  font-size: 2em;
+.contact {
+  min-height: 80vh;
+}
+
+textarea {
+  resize: none;
+  border-radius: .25rem;
+}
+
+ul>li {
+  list-style-type: none;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+  text-align: center;
+  background-color: transparent;
+}
+
+img {
+  position: relative;
+  bottom: 255px;
+  border-radius: 35%;
+}
+
+h2, h1 {
+  color: #081;
 }
